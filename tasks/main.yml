@@ -1,5 +1,5 @@
 ---
-- name: install security updates
+- name: install security updates # noqa package-latest
   become: true
   ansible.builtin.yum:
     name: '*'
